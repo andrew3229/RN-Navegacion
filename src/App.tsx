@@ -7,8 +7,8 @@ import { DrawerNavigator } from './presentation/routes/DrawerNavigator';
 export const App = () => {
   return (
     <NavigationContainer>
-      {/* <StackNavigator/> */}
-      <DrawerNavigator/>
+      <StackNavigator/>
+      {/* <DrawerNavigator /> */}
     </NavigationContainer>
   )
 }
